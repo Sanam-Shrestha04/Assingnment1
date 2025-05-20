@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Management System</title>
+
+  <style>
+     *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+  body {
+    padding: 10px;
+  }
+
+    .box {
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    background-color: red;
+    transition:all 4s cubic-bezier(0.075, 0.82, 0.165, 1) 0s ;
+
+    animation: a1 15s cubic-bezier(0.075, 0.82, 0.165, 1) 0s infinite reverse forwards;
+
+    }
+
+    .box:hover {
+      width: 500px;
+      /* border-radius: 50%; */
+      transform: translateY(30px) translateX(60px) ;
+      /* transform: scale(2); zoom */
+      /* transform: rotate(30deg);  rotate*/
+    }
+
+    @keyframes a1 {
+      20% {
+        background-color: pink;
+      }
+      40% {
+        background-color: palegoldenrod;
+        margin-right: 50%;
+      }
+      60% {
+        background-color: plum;
+      }
+      80% {
+        background-color: rgb(152, 244, 251);
+        transform: rotate(40deg);
+      }
+    }
+
+  
+  </style>
+</head>
+<body>
+  <div class="box">    
+  </div>
+</body>
+</html>

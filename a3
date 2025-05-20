@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Management System</title>
+
+  <style>
+     *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+  body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+  }
+
+    .box {
+    height: 600px;
+    width: 400px;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: rgb(216, 211, 211);
+    }
+
+    img {
+      position: relative;
+      height: 60%;
+      width: 100%;
+    }
+
+    h2 {
+      top: 65%;
+      left: 10%;
+      right: 10%;
+      position: absolute;
+      color: rgb(216, 143, 112);
+    }
+
+    h3 {
+      top: 70%;
+      left: 10%;
+      position: absolute;
+      color: rgb(30, 105, 184);
+    }
+  
+  </style>
+</head>
+<body>
+  <div class="box">
+    
+    <img src="https://r2.erweima.ai/imgcompressed/compressed_723ad398c6d2751f92e24af448cb22aa.webp" alt="Task Manahement System">
+    <h2>Task Management System</h2>
+    <h3>Features:
+      <ul>
+        <li>TO-DO</li>
+        <li>Priority</li>
+        <li>Level</li>
+        <li>Collaboration</li>
+      </ul>
+    </h3>
+    
+  </div>
+</body>
+</html>
