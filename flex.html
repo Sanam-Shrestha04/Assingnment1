@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body{
+      padding: 20px;
+      background-color: pink;
+    }
+
+    .box {
+      height: 100vh;
+      max-width: 80%;
+      display: flex;
+      justify-content: center;
+      /* align-items: center; */
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .box1,.box2,.box3,.box4,.box5 {
+      flex-basis: 300px;
+      /* height: 350px; ;
+      max-width: 300px; */
+      background-color: white ;
+      flex-grow: 1;
+      flex-shrink: 1;
+      box-shadow: rgba(0, 0, 0, 0.162) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+
+    .box4,.box5 {
+      height: 350px; ;
+      max-width: 300px;    
+    }
+    
+    img {
+      margin: 5px 8px;
+      height: 150px;
+      width: 95%;
+      border-radius: 10px;
+    }
+
+    h3 {
+      border-radius: 8px;
+      margin-left: 10px;
+      text-align: center;
+      height: 30px;
+      width: fit-content;
+      border: 3px solid pink;
+    }
+
+    p {
+      margin: 10px;
+    }
+
+    button {
+      border-radius: 8px;
+      margin-left: 10px;
+      text-align: center;
+      height: 25px;
+      width: 25%;
+      background-color: pink;
+      border: none;
+      margin-bottom: 10px;
+    }
+
+  </style>
+
+</head>
+<body>
+
+  <div class="box">
+    
+      <div class="box1">
+        <img src="http://t3.gstatic.com/images?q=tbn:ANd9GcTwMhLyE-x41hERYJP3YH0833qzhni_Heu4jBFc382H_6mWUjXm" alt="Blockchain">
+        <h3>Blockchain</h3>
+        <p>Blockchain technology, originally introduced for cryptocurrencies like Bitcoin, has expanded its application beyond digital currencies. </p>
+        <button>Read More</button>
+      </div>
+      <div class="box2">
+        <img src="https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcSBKVKEZ7hLT3Jm8Ilg9f-_ENlT6T9veKYKJEgqnlH_NMHbcjLGy3uwtGF1A-2b3ogj" alt="IOT">
+        <h3>Internet of Things</h3>
+        <p>Internet of things describes devices with sensors, processing ability, software, other technologies that connect and exchange data with other systems over the Internet.</p>
+        <button>Read More</button>
+      </div>
+      <div class="box3">
+        <img src="https://cdn.britannica.com/40/216540-138-14385CFE/How-machine-learning-is-predicting-synthetic-products.jpg?w=800&h=450&c=crop" alt="ML">
+        <h3>Machine Learning</h3>
+        <p>Machine learning is a field of study in artificial intelligence concerned with the development and study of statistical algorithms.</p>
+        <button>Read More</button>
+
+      </div>
+      <div class="box4">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBjmw-QBwAYQC6H558kO77CPRl3vW-eQuQTjFYPcl9XLMBtBeD-Y9IE052lU2yfPsdF94&usqp=CAU" alt="dS">
+        <h3>Data Science</h3>
+        <p>Data science is an interdisciplinary academic field that uses statistics, scientific computing, algorithms and systems to extract or extrapolate knowledge from data.</p>
+        <button>Read More</button>
+
+      </div>
+      <div class="box5">
+        <img src="https://hashstudioz.com/blog/wp-content/uploads/2024/04/shutterstock_649992646-800x412-1.png" alt="cs">
+        <h3>Cybersecurity</h3>
+        <p>Computer security is a subdiscipline within the field of information security concerned with confidentiality, integrity and authenticity. </p>
+        <button>Read More</button>
+      </div>
+
+  </div>
+  
+</body>
+</html>
